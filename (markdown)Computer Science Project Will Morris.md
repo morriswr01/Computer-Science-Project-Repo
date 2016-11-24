@@ -16,6 +16,8 @@ ___
     - Customers do not have quick access to their transaction history or current balance having to go into branch to request this information which can be a problem for people with a very tight schedule who just want to be able to access their banking information quickly through their smart phone or laptop that they may have on them at all time. This means customers can also go overdrawn unintentionally which can give them issues with credit score if a customer does not know he or she is overdrawn because they did not have easy access to their banking information.
 
 + Justify why it can be solved by a computer
+  The banks current system is ideal to be modeled by a computer system for a number of reasons.
+  - Firstly, half of the banks system is already stored on a database. This covers just the transactions which are linked to the various accounts by having an account number as a foreign key to the paper account form which the bank stores. However this link between the physical account database and the computerized transaction database does nothing. For example the transaction database does not have the ability to check the account "form" to see how much over draft that type of account is allowed meaning there is no way to safeguard a customers overdraft if they are unaware of their current balance in that account. A computer system can be used in the form of a database for the same reason that the transaction database can.
 
 
 
@@ -29,3 +31,15 @@ ___
 + Justify hardware and software requirements
 
 ## Design
+
+### Test strategy(last subtitle for design):
+
+Unit testing is testing each program as it is written. The dev tests the program with data as the program is being made. Get screen shots of code as you are making it. Show testing as the program is being added to. In design you must create a test plan for each program or procedure.
+
+| Test No. | Test Data                                          | Reason for test     | Expected Result                   | Actual Result |
+|----------|----------------------------------------------------|---------------------|-----------------------------------|---------------|
+| 1        | Surnames = ("Graham", "Lee", "Appleyard", "Brigg") | To test Bubble sort | Surnames printed in correct order | -             |
+
+White box testing - differs to unit testing by testing a whole program or module of code and putting test data into the program that tests all possible pathways through the program. Must be planned in design section and carried out in the development.
+
+### Post development testing:
