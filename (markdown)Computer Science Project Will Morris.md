@@ -44,7 +44,7 @@ ___
     1. Example 1 - This application is a tablet android based application however its design is in a style which I would  like to implement in my final application. Some of its key features will be listed.
 
 
-    ![](Computer-Science-Project-Repo/Images/Banking Application.png)
+    ![](Computer-Science-Project-Repo/Images/tablet.jpg)
 
 
 + **Explain the features of the solution**
