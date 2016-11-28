@@ -17,15 +17,8 @@ ___
     - The bank only holds one copy of each document and has no accessible backup meaning that if there is a fire or natural disaster and all of their records are destroyed customers can lose track of where their money is/should be held and the bank could go out of business very quickly.
     - Customers do not have quick access to their transaction history or current balance having to go into branch to request this information which can be a problem for people with a very tight schedule who just want to be able to access their banking information quickly through their smart phone or laptop that they may have on them at all time. This means customers can also go overdrawn unintentionally which can give them issues with credit score if a customer does not know he or she is overdrawn because they did not have easy access to their banking information.
 
-+ **Justify why it can be solved by a computer**
-  The banks current system is ideal to be modeled by a computer system for a number of reasons.
++ **Justify why it can be solved by a computer** The banks current system is ideal to be modeled by a computer system for a number of reasons.
   - Firstly, half of the banks system is already stored on a database. This covers just the transactions which are linked to the various accounts by having an account number as a foreign key to the paper account form which the bank stores. However this link between the physical account database and the computerized transaction database does nothing. For example the transaction database does not have the ability to check the account "form" to see how much over draft that type of account is allowed meaning there is no way to safeguard a customers overdraft if they are unaware of their current balance in that account. A computer system can be used in the form of a database for the same reason that the transaction database can.
-
-
-
-
-
-
 
 + **Identify stakeholders**
   - **The customers of the bank** will be the main stakeholders of this project as they are the individuals who will gain most from the production of an online system to replace the paper one. the customers needs from this program is that they must be able to access it anywhere with an internet connection so that they can view their details at a time flexible to them. Also it must replace the monthly paper statements if the customer so chooses if they feel that it is no longer needed due to this new online system. This will allow customers to manage their accounts more in real time rather than having to wait for the next opportunity to go out of their way to visit a branch making for a much more convenient and efficient banking experience. It will also provide a way of making transactions between different accounts or even to other customers of the bank which will be a very quick process again due to the lack of having to go into the bank to withdraw cash or write a check and send it to the target person.
@@ -41,10 +34,21 @@ ___
     - Is the account information displayed in a manner in which it is easy to identify separate accounts/ transactions?
     - Is it responsive? Does it respond to changes in screen size?(this is not measureable here)
 
-    1. Example 1 - This application is a tablet android based application however its design is in a style which I would  like to implement in my final application. Some of its key features will be listed.
-![Example](https://lh3.ggpht.com/lTfkPDu_zmTKu0eipx8l5WlycdRGiE33-jGHsVl7hJ1lIVO3hAqh4LiVIN1za-j5_2QW=h900)
-    2. Examplw 2 - 
+1. **Example 1** - This application is a tablet android based application however its design is in a style which I would  like to implement in my final application. Some of its key features will be listed.
+![Example 1](https://lh3.ggpht.com/lTfkPDu_zmTKu0eipx8l5WlycdRGiE33-jGHsVl7hJ1lIVO3hAqh4LiVIN1za-j5_2QW=h900)
+  + Clear navigation bar on the right with headers to group linked button actions together. In this example "Start a transaction" all the actions for setting up payments are grouped.
+  + There is a search box button so that the transactions can be queried to find specific records. I would like to implement this with different criteria so that the user can search only for records in a certain price bracket for example.
+  + Details that do not need to be displayed are hidden behind drop down menus("More Details") so that they can be accessed when they are needed. This makes for a very abstracted view and only shows the most important data to start with so the user can just glance at the display and already get a good picture of how their account is looking currently.
+  + Text sizing highlights the account balance and the smaller text highlights the transactions. This gives a very natural feel to the information being displayed as the main balance is made up of the smaller transactions and this is represented well by the text sizing.
+  + The listed section of accounts on the side shows all accounts that the customer currently holds. This is a feature which I will likely adopt so the user can access their different account seamlessly. In this example it allows the user to quickly switch between accounts though a scroll menu at the side.
+  + Flat design. No ugly shadows or beveled buttons. This makes the application more user friendly and not overwhelming to look at.
 
+
+2. **Example 2** – Login Screen Example. I like this login screen example because of it simplistic look and feel. It is very abstracted through how it has one simple logo and just the links you need to either access your account or in my example create an account. It doesn’t show any irrelevant information and the focus is solely on the login of the application.
+![Example 2](http://guide.runwaywp.com/wp-content/uploads/495.png)
+
+3. **Example 3**
+4. **Example 4**
 
 + **Explain the features of the solution**
 
