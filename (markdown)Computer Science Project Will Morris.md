@@ -42,9 +42,8 @@ ___
     - Is it responsive? Does it respond to changes in screen size?(this is not measureable here)
 
     1. Example 1 - This application is a tablet android based application however its design is in a style which I would  like to implement in my final application. Some of its key features will be listed.
-
-
-    ![](images/tablet.jpg)
+![Example](https://lh3.ggpht.com/lTfkPDu_zmTKu0eipx8l5WlycdRGiE33-jGHsVl7hJ1lIVO3hAqh4LiVIN1za-j5_2QW=h900)
+    2. Examplw 2 - 
 
 
 + **Explain the features of the solution**
