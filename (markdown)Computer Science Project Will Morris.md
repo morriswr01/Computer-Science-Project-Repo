@@ -17,7 +17,7 @@ ___
     - The bank only holds one copy of each document and has no accessible backup meaning that if there is a fire or natural disaster and all of their records are destroyed customers can lose track of where their money is/should be held and the bank could go out of business very quickly.
     - Customers do not have quick access to their transaction history or current balance having to go into branch to request this information which can be a problem for people with a very tight schedule who just want to be able to access their banking information quickly through their smart phone or laptop that they may have on them at all time. This means customers can also go overdrawn unintentionally which can give them issues with credit score if a customer does not know he or she is overdrawn because they did not have easy access to their banking information.
 
-+ Justify why it can be solved by a computer
++ **Justify why it can be solved by a computer**
   The banks current system is ideal to be modeled by a computer system for a number of reasons.
   - Firstly, half of the banks system is already stored on a database. This covers just the transactions which are linked to the various accounts by having an account number as a foreign key to the paper account form which the bank stores. However this link between the physical account database and the computerized transaction database does nothing. For example the transaction database does not have the ability to check the account "form" to see how much over draft that type of account is allowed meaning there is no way to safeguard a customers overdraft if they are unaware of their current balance in that account. A computer system can be used in the form of a database for the same reason that the transaction database can.
 
@@ -27,11 +27,12 @@ ___
 
 
 
-+ Identify stakeholders
++ **Identify stakeholders**
   - **The customers of the bank** will be the main stakeholders of this project as they are the individuals who will gain most from the production of an online system to replace the paper one. the customers needs from this program is that they must be able to access it anywhere with an internet connection so that they can view their details at a time flexible to them. Also it must replace the monthly paper statements if the customer so chooses if they feel that it is no longer needed due to this new online system. This will allow customers to manage their accounts more in real time rather than having to wait for the next opportunity to go out of their way to visit a branch making for a much more convenient and efficient banking experience. It will also provide a way of making transactions between different accounts or even to other customers of the bank which will be a very quick process again due to the lack of having to go into the bank to withdraw cash or write a check and send it to the target person.
+
   - **Employees of the banking company** will now have a much easier way to access and edit customer records with a new database that connects with the tables of the transaction database so that they both work together and are linked in such a way to avoid data redundancy and maintain data integrity. This will make the job of the bankers more efficient because it will provide a level of human error protection so that data is always kept up-to date in all places and that no data can be repeated. The database will provide a way of uniquely identifying each customer through a primary key or a secondary key which ideally will be more human readable so that a customer can be identified uniquely by their email for example. Their email will also be tied to this database so the bank can send emails about urgent issues with their account or the ability to send out messages about new account types that they are offering. The online database will also have the ability to be easily copied and backed up off site which increases the security and safety of the information that they are holding which in turn makes their bank much more attractive to new customers as they know their money and personal data is safe.
 
-+ Research and justification of approach
++ **Research and justification of approach**
   - While I am in the design and development of my banking application I will be taking inspiration from different examples of already developed/deployed banking systems and observing the features that stand out most to me. Namely I will be looking for the features that cater to the user through  asking questions like:
     - Does it look easy to use?
     - Are the navigational tools well designed and accessible?
@@ -39,8 +40,21 @@ ___
     - Do different buttons have tool tips to display information about what the button does?
     - Is the account information displayed in a manner in which it is easy to identify separate accounts/ transactions?
     - Is it responsive? Does it respond to changes in screen size?(this is not measureable here)
-+ Explain the features of the solution
-+ Justify hardware and software requirements
+
+    1. Example 1 - This application is a tablet android based application however its design is in a style which I would  like to implement in my final application. Some of its key features will be listed.
+
+
+    ![](images/tablet.jpg)
+
+
++ **Explain the features of the solution**
+
+  1. The program must be able to allow users to create an online account and connect to their respective accounts using the account number. They will create an account by entering the same data as is on their paper form in the bank and then choose a password. In future they will use this password along with their email to login with. Once they have created an account their currently active accounts will show up and their data will automatically be linked to their customer database.
+  2. Once a user has logged in the allow users to view a list of the accounts they have linked them. They should be able to select one of these accounts and view: balance, a transaction list which should include an option to refine the transactions to just in or outgoing transactions. They should also have multiple search options which allows a customer to search the transactions by date, ascending/descending alphabetical order, by transaction size and others as I think of them.
+  3. There should also be the option to select "make a transaction" which should prompt you to enter the account number you would like to send funds to, a drop down box to enter the account you would like to pull from and an amount box to specify the quantity you would like to transfer. This should talk to the transaction database to create a new record of this transaction and then edit the account database by way of a foreign key to link and edit the balance of the accounts.
+
+
++ **Justify hardware and software requirements**
 
 ## Design
 
@@ -55,3 +69,8 @@ Unit testing is testing each program as it is written. The dev tests the program
 White box testing - differs to unit testing by testing a whole program or module of code and putting test data into the program that tests all possible pathways through the program. Must be planned in design section and carried out in the development.
 
 ### Post development testing:
+
+
+### Improvements:
+- Could make more secure by using a temporary key so people can't just claim your account using a stolen account number
+- Could have security questions
