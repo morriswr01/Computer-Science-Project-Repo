@@ -40,7 +40,8 @@ ___
 
 1. **Example 1** - This application is a tablet android based application however its design is in a style which I would  like to implement in my final application. Some of its key features will be listed.
 
-![Example 1](https://lh3.ggpht.com/lTfkPDu_zmTKu0eipx8l5WlycdRGiE33-jGHsVl7hJ1lIVO3hAqh4LiVIN1za-j5_2QW=h900)
+![Example 1](Images\Banking Application.png)
+
   + Clear navigation bar on the right with headers to group linked button actions together. In this example "Start a transaction" all the actions for setting up payments are grouped.
   + There is a search box button so that the transactions can be queried to find specific records. I would like to implement this with different criteria so that the user can search only for records in a certain price bracket for example.
   + Details that do not need to be displayed are hidden behind drop down menus("More Details") so that they can be accessed when they are needed. This makes for a very abstracted view and only shows the most important data to start with so the user can just glance at the display and already get a good picture of how their account is looking currently.
@@ -51,12 +52,23 @@ ___
 
 2. **Example 2** – Login Screen Example. I like this login screen example because of it simplistic look and feel. It is very abstracted through how it has one simple logo and just the links you need to either access your account or in my example create an account. It doesn’t show any irrelevant information and the focus is solely on the login of the application.
 
-![Example 2](http://guide.runwaywp.com/wp-content/uploads/495.png)
+![Example 2](Images\495.png)
 
 3. **Example 3** - This example shows a basic c# program however it displays many of the basic functions that I want in my program to have. It uses a box to highlight related  options/ information which in this example surrounds the transaction functions. It gives you a number of options which can be operated because the user has already selected their account shown by the account number and each of these buttons use that to manipulate and access various information about that account which will change a database in the background.
 - It also has a logout button which I would also like to add to allow users to exit and save changes made to their accounts before closing the application when they are finished. However this example is a little basic and the colors used are not inviting which makes the program ugly and old fashioned looking.
 
-![Example 3](http://www.sourcecodester.com/sites/default/files/styles/medium/public/images/donbermoy/atm.png?itok=tG0pJnT_)
+![Example 3](Images\atm.png)
+
+4. **Example 4** - Another example of a tablet application which I believe is a good fit for the design of my banking application due to its attractive look and simple display of information and options.
+
+![Example 4](Images\tablet.jpg)
+
++ Clear navigation bar with headers to group linked button actions together. In this example “Start a transaction” all the actions for setting up payments with other people are grouped.
++ There is a search box so that the transactions in this account can be queried to find specific records. I would like to implement this with different criteria so that the user can search for only records in a certain price bracket for example.
++ Details that do not need to be displayed are hidden behind drop down menus so that they can be accessed when they are needed. This makes for a very abstracted view and only shows the most important data to start with so the user can just glance at the display and already get a good picture of how their account is looking currently.
++ Text sizing highlights the account balance and the smaller text highlights the transactions. This gives a very natural feel to the information being displayed as the main balance is made up of the smaller transactions and this is represented well by the text sizing.
++ This allows the user to quickly switch between accounts though a scroll menu at the side.
++ Flat design. No ugly shadows or beveled buttons.
 
 + **Explain the features of the solution**
 
@@ -66,7 +78,7 @@ ___
 
 
 + **Justify hardware and software requirements**
-  - The target audience for this program is mainly the customer therefore the customer has to be able to run this with their 
+  - The target audience for this program is mainly the customer therefore the customer has to be able to run this with their
 
 ## Design
 
@@ -86,3 +98,4 @@ White box testing - differs to unit testing by testing a whole program or module
 ### Improvements:
 - Could make more secure by using a temporary key so people can't just claim your account using a stolen account number
 - Could have security questions
+- Sql injection

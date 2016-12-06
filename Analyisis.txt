@@ -1,0 +1,4 @@
+Divide and conquer
+Can you abstract?
+Does it use numbers?
+Can it be visualised?
